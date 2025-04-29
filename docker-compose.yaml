@@ -1,0 +1,11 @@
+
+services:
+  survey-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: survey
+
+
