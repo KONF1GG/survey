@@ -19,7 +19,7 @@ const styles = {
     },
     submitButton: {
       padding: "10px 20px",
-      backgroundColor: "#40bf40",
+      backgroundColor: "#6cb71d",
       color: "#fff",
       border: "none",
       borderRadius: "5px",
