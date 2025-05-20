@@ -48,12 +48,12 @@ export default function renderQuestion (question, responses, onChange) {
   
       case "short_text":
         return (
-          <input
+          <textarea
             type="text"
             value={selectedAnswer || ""}
             onChange={(e) => onChange(question.id, e.target.value)}
-            style={styles.textInput}
-          />
+            style={styles.textInput}  rows="5">
+          </textarea>
         );
   
       case "rating":
